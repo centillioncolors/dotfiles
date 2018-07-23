@@ -5,6 +5,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 for f in .??*
 do
+    [[ "$f" == ".bash_profile_mac" ]] && continue
     [[ "$f" == ".git" ]] && continue
     [[ "$f" == ".DS_Store" ]] && continue
 
