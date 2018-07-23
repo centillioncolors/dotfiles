@@ -5,6 +5,7 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'bumaociyuan/vim-swift'
 Plug 'pangloss/vim-javascript'
 Plug 'itchyny/lightline.vim'
+Plug 'terryma/vim-multiple-cursors'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 call plug#end()
