@@ -10,6 +10,7 @@ Plug 'tpope/vim-eunuch'
 Plug 'mattn/emmet-vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'tpope/vim-rails'
 
 call plug#end()
 

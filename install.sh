@@ -1,13 +1,13 @@
 #!/bin/sh
 
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+source common.sh
 
-for f in .??*
-do
-    [[ "$f" == ".bash_profile_mac" ]] && continue
-    [[ "$f" == ".git" ]] && continue
-    [[ "$f" == ".DS_Store" ]] && continue
-
-    ln -snfv ~/dotfiles/"$f" ~/
-done
+case ${OSTYPE} in
+  darwin*)
+    echo "Running on OSX"
+    source mac/install.sh
+    ;;
+  linux*)
+    echo "Running on Linux"
+    ;;
+esac

@@ -1,5 +1,0 @@
-export PATH="$HOME/.rbenv/shims:$PATH"
-eval "$(rbenv init -)"
-export PATH="/usr/local/sbin:$PATH"
-#export PATH="/usr/local/opt/sbt@0.13/bin:$PATH"
-#export PATH="/usr/local/opt/scala@2.11/bin:$PATH"
